@@ -1,0 +1,43 @@
+ReadMePeru
+
+Índice de Precariedad Laboral (IPL)
+Este repositorio contiene el código y los datos necesarios para reproducir los análisis realizados en el artículo:
+“Medición de la precariedad laboral en América Latina”
+
+Autores
+•	Luz Judith Rodríguez Esparza
+•	Dolly Anabel Ortiz Lazcano
+
+Descripción
+Este proyecto propone y evalúa un Índice de Precariedad Laboral (IPL) construido a partir de cuatro dimensiones asociadas a las condiciones laborales de los trabajadores.
+Los análisis fueron realizados utilizando datos de la la Encuesta Nacional de Hogares (ENAHO), producida por el Instituto Nacional de Estadística e Informática (INEI).
+
+Estructura del repositorio
+├── data/          # Bases de datos
+├── scripts/       # Scripts de limpieza y análisis
+└── ReadMe.html
+
+Requisitos
+Software utilizado:
+•	R (versión 4.3 o superior)
+•	RStudio
+
+Paquetes principales:
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(janitor)
+library(stringr)
+library(purrr)
+library(readr)
+library(fs)
+library(tibble)
+
+Reproducibilidad
+1.	Descargar o clonar el repositorio.
+2.	Instalar los paquetes requeridos.
+3.	Ejecutar el script obtenerdatos.R (para generar las bases de datos necesarias).
+4.	Ejecutar el script RunIPL_Peru.R.
+
+Datos
+Fuente: Encuesta Nacional de Hogares (ENAHO), Instituto Nacional de Estadística e Informática (INEI)
