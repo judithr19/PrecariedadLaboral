@@ -1,22 +1,30 @@
 ReadMeColombia
 
 Índice de Precariedad Laboral (IPL)
+
 Este repositorio contiene el código y los datos necesarios para reproducir los análisis realizados en el artículo:
 “Medición de la precariedad laboral en América Latina”
+
 Autores
 •	Luz Judith Rodríguez Esparza
 •	Dolly Anabel Ortiz Lazcano
+
 Descripción
+
 Este proyecto propone y evalúa un Índice de Precariedad Laboral (IPL) construido a partir de cuatro dimensiones asociadas a las condiciones laborales de los trabajadores.
-Los análisis fueron realizados utilizando datos de la Encuesta Nacional de Salud y Nutrición (ENSANUT).
+Los análisis fueron realizados utilizando datos de Gran Encuesta Integrada de Hogares (GEIH)
+
 Estructura del repositorio
 ├── data/          # Bases de datos
 ├── scripts/       # Scripts de limpieza y análisis
 └── ReadMe.html
+
 Requisitos
+
 Software utilizado:
 •	R (versión 4.3 o superior)
 •	RStudio
+
 Paquetes principales:
 library(readxl)
 library(dplyr)
@@ -27,10 +35,12 @@ library(purrr)
 library(readr)
 library(fs)
 library(tibble)
+
 Reproducibilidad
 1.	Descargar o clonar el repositorio.
 2.	Instalar los paquetes requeridos.
 3.	Ejecutar el script RUNIPL_COLOMBIA.R.
+
 Datos
 Fuente: Gran Encuesta Integrada de Hogares (GEIH) DANE, Colombia
-Por restricciones de uso y tamaño, algunas bases pueden no estar incluidas en este repositorio. En ese caso, deben obtenerse desde las fuentes oficiales correspondientes.
+
