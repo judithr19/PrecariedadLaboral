@@ -1,7 +1,7 @@
 #______________________________#
 # Indice de Precariedad Laboral: Perú
 #______________________________#
-setwd("~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documentos - MacBook Pro de Apple/Colaboraciones/Dolly/PrecariedadLaboral/Programas/Peru")
+
 # Programa que tiene el cálculo del índice
 source("IPL.R")
 #______________________________#
